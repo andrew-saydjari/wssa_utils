@@ -29,11 +29,11 @@ def pix2ang_ring(nside, ipix):
     nl1 = nside
     nl2 = 2*nl1
     if (nl1 > 8192):
-        nl4 = long(4)*nl1
-        ncap = nl2*(nl1-long(1))
-        nsup = nl2*(long(5)*nl1+long(1))
-        one = long(1)
-        four = long(4)
+        nl4 = int(4)*nl1   # changed long to int
+        ncap = nl2*(nl1-int(1))  # changed long to int
+        nsup = nl2*(int(5)*nl1+int(1))  # changed long to int
+        one = int(1)  # changed long to int
+        four = int(4)  # changed long to int
         l64 = 1
     else:
         nl4 = 4*nl1
