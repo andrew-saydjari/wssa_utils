@@ -2,7 +2,7 @@
 
 import os
 import numpy as np
-import pyfits
+from astropy.io import fits as pyfits
 from ang2pix_ring import ang2pix_ring
 from scipy.ndimage import map_coordinates
 

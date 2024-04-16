@@ -4,7 +4,7 @@ Unit tests, will eventually repurpose for use with nose.
 
 """
 # if these imports fail, you're already in trouble
-import pyfits
+from astropy.io import fits as pyfits
 import numpy as np
 from pix2ang_ring import pix2ang_ring
 import wssa_utils

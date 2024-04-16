@@ -11,3 +11,4 @@ comp/*.pyc
 ### any testing detritus
 comp/*.fits
 comp/*.log
+python/__pycache__/*
